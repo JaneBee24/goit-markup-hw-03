@@ -121,7 +121,9 @@ h1, h2, h3{
 .main-banner{
     color: var(--second-dark-blue-color);
     background-color: var(--second-dark-blue-color);
-    margin-top: 72px;
+    padding: 188px 0;
+
+
 }
 
 .main-banner-text{
@@ -130,10 +132,7 @@ h1, h2, h3{
     text-align: center;
     letter-spacing: 0.02em;
     color:var(--white-color);
-    padding-top: 188px;
-    padding-bottom: 292px;
-    padding-left: 472px;
-    padding-right: 472px;
+    max-width: 496px;
 }
 
 .main-banner-button{
@@ -146,8 +145,12 @@ h1, h2, h3{
     color: var(--white-color);
     cursor: pointer;
     align-items: center;
-    padding-top: 356px;
-    padding-bottom: 188px;
+    max-width: 496px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .main-banner-button:hover, .main-banner-button:focus{
