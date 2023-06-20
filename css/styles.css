@@ -62,6 +62,14 @@ img{
     display: inline-block; 
 }
 
+.footer-link{
+    margin-bottom: 16px;
+}
+
+.index-li{
+    width: calc((100% - 72px) / 4);
+}
+
 .address{
     font-style: normal;
      
@@ -102,6 +110,8 @@ img{
 
 .list_{
     background-color: var(--white-color);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 h1, h2, h3{ 
@@ -193,6 +203,7 @@ h1, h2, h3{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-dark-blue-color);
+    margin-bottom: 8px;
 }
 
 .list-main-text{
@@ -209,6 +220,16 @@ h1, h2, h3{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--second-dark-blue-color);
+    margin-bottom: 72px;
+}
+
+.thrird-section-list{
+    gap: 24px;
+
+}
+
+.thrird-section-li{
+    width: calc((100% - 48px) / 3);
 }
 
 .fourth-section{
@@ -227,6 +248,13 @@ h1, h2, h3{
     text-transform: capitalize;
     color: var(--second-dark-blue-color);
     background-color: var(--white-color);
+    margin-bottom: 72px;
+}
+
+.fourth-section-list{
+    display: flex;
+    gap: 24px; 
+
 }
 
 .fourth-list-title{
@@ -235,6 +263,8 @@ h1, h2, h3{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-dark-blue-color);
+    text-align: center;
+    margin-bottom: 8px;
 
 }
 
@@ -243,6 +273,12 @@ h1, h2, h3{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-blue-color);
+    text-align: center;
+}
+
+.fourth-section-div{
+    padding: 32px 16px;
+
 }
 
 .footer-paragraph{
@@ -317,4 +353,9 @@ h1, h2, h3{
 
 .thrird-section{
     padding-bottom: 120px;
+}
+
+.fourth-section{
+    padding: 120px 0;
+
 }
