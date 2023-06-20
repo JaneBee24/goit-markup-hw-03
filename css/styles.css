@@ -13,6 +13,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.menu{
+    display: flex; 
+    gap: 40px;
+}
+
 img{
     display: block
 }
@@ -98,10 +103,7 @@ h1, h2, h3{
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--second-dark-blue-color);
-    margin-left: 435px;
-    margin-right: 940px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding: 24px 0;
 
 }
 
