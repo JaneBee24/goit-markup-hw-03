@@ -5,6 +5,7 @@
     --second-dark-blue-color: #2e2f42;
     --second-white-color: #F4F4FD;
     --second-blue-color: #404BBF;
+    --trhird-white-color: #e7e9fc;
 } 
 
 body{
@@ -23,7 +24,7 @@ img{
 }
 
 .header{
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid var(--trhird-white-color);
 }
 
 .header-container{
@@ -85,6 +86,14 @@ img{
 
 .list{
     list-style: none;
+    display: flex;
+}
+
+.list__{
+    column-gap: 24px; 
+    flex-wrap: wrap;
+    row-gap: 48px;
+
 }
 
 .list_{
@@ -124,6 +133,22 @@ h1, h2, h3{
     padding: 188px 0;
 
 
+}
+
+.second-section{
+    padding: 120px 0;
+
+}
+
+.portfolio-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.first-portfolio-section{
+    padding-top: 96px; padding-bottom: 120px;
 }
 
 .main-banner-text{
@@ -231,6 +256,19 @@ h1, h2, h3{
     color: var(--blue-color);
     background-color:var(--second-white-color);
     cursor: pointer;
+
+}
+
+.button_{
+    padding: 12px 24px;
+    border: 1px solid var( --trhird-white-color);
+    border-radius: 4px;
+}
+
+.button_:hover, .button_:focus{
+    border: 1px solid transparent;
+
+
 }
 
 .button:hover, .button:focus{
@@ -244,6 +282,7 @@ h1, h2, h3{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--second-dark-blue-color);
+    margin-bottom: 8px;
 }
 
 .list-photo-text{
@@ -257,5 +296,16 @@ h1, h2, h3{
 .footer{
     background-color: var(--second-dark-blue-color);
     padding: 100px 0;
+
+}
+
+.first-li{
+    width: calc((100% - 48px) / 3); 
+}
+
+.portfolio-container{
+    padding: 32px 16px;
+    border: 1px solid var(--trhird-white-color);
+    border-top: none;
 
 }
