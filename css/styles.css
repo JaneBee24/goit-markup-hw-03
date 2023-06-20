@@ -359,3 +359,16 @@ h1, h2, h3{
     padding: 120px 0;
 
 }
+
+.portfolio-header{
+    border-bottom: 1px solid var(--trhird-white-color);
+}
+
+.portfolio-container{
+    display: flex; 
+}
+
+.portfolio-nav{
+    display: flex;
+    align-items: center; 
+}
