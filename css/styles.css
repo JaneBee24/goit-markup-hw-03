@@ -23,9 +23,15 @@ img{
     border-bottom: 1px solid #e7e9fc;
 }
 
+.header-container{
+    display: flex;
+}
+
 .header-list{
     display: flex;
     align-items: center; 
+    display: flex; 
+    gap: 40px;
 }
 
 .container{
@@ -43,10 +49,8 @@ img{
     text-transform: uppercase;
     color: var(--blue-color);
     text-decoration: none;
-    margin-top: 25.5px;
-    margin-bottom: 25.5px;
-    margin-left: 155px;
-    margin-right: 1240px;
+    margin-right: 76px;
+    padding: 24px 0;
 }
 
 .link{
@@ -56,6 +60,12 @@ img{
 
 .address{
     font-style: normal;
+     
+}
+
+.adress-list{
+    display: flex;
+    gap: 40px;
 }
 
 .link:hover, .link:focus{
