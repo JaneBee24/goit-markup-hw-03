@@ -40,7 +40,7 @@ img{
 
 .link{
     text-decoration:none;
-
+    display: inline-block; 
 }
 
 .address{
@@ -195,6 +195,7 @@ h1, h2, h3{
     line-height: 1.5;
     color: var(--second-white-color);
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .button{
@@ -231,4 +232,6 @@ h1, h2, h3{
 
 .footer{
     background-color: var(--second-dark-blue-color);
+    padding: 100px 0;
+
 }
