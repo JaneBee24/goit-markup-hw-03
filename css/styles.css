@@ -1,0 +1,228 @@
+:root{
+    --white-color:  #FFFFFF;
+    --dark-blue-color:  #434455;
+    --blue-color:  #4d5ae5;
+    --second-dark-blue-color: #2e2f42;
+    --second-white-color: #F4F4FD;
+    --second-blue-color: #404BBF;
+} 
+
+body{
+    background-color: var(--white-color);
+    color: var(--dark-blue-color);
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--blue-color);
+    text-decoration: none;
+    margin-top: 25.5px;
+    margin-bottom: 25.5px;
+    margin-left: 155px;
+    margin-right: 1240px;
+}
+
+.link{
+    text-decoration:none;
+
+}
+
+.address{
+    font-style: normal;
+}
+
+.link:hover, .link:focus{
+    color: var(--second-blue-color);
+}
+
+.span_{
+    color: var(--second-dark-blue-color);
+}
+
+.span{
+    color: var(--second-white-color);
+}
+
+.list{
+    list-style: none;
+}
+
+.list_{
+    background-color: var(--white-color);
+}
+
+h1, h2, h3{ 
+    font-family: 'Roboto';
+}
+
+.link-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--second-dark-blue-color);
+    margin-left: 435px;
+    margin-right: 940px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+.adress{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-color);
+    font-style: normal;
+}
+
+.main-banner{
+    color: var(--second-dark-blue-color);
+    background-color: var(--second-dark-blue-color);
+    margin-top: 72px;
+}
+
+.main-banner-text{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:var(--white-color);
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-left: 472px;
+    padding-right: 472px;
+}
+
+.main-banner-button{
+    background-color: var(--blue-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    cursor: pointer;
+    align-items: center;
+    padding-top: 356px;
+    padding-bottom: 188px;
+}
+
+.main-banner-button:hover, .main-banner-button:focus{
+    background-color: var( --second-blue-color);
+}
+
+.list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-dark-blue-color);
+}
+
+.list-main-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-color);
+}
+
+.third-section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--second-dark-blue-color);
+}
+
+.fourth-section{
+    background-color: var(--second-white-color);
+}
+
+.list1{
+    background-color: var(--white-color);
+}
+
+.fourth-section-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--second-dark-blue-color);
+    background-color: var(--white-color);
+}
+
+.fourth-list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-dark-blue-color);
+
+}
+
+.fourth-list-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-color);
+}
+
+.footer-paragraph{
+    line-height: 1.5;
+    color: var(--second-white-color);
+    letter-spacing: 0.02em;
+}
+
+.button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--blue-color);
+    background-color:var(--second-white-color);
+    cursor: pointer;
+}
+
+.button:hover, .button:focus{
+    color: var(--white-color);
+    background-color: var( --second-blue-color);
+}
+
+.list-photo-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-dark-blue-color);
+}
+
+.list-photo-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark-blue-color);
+
+}
+
+.footer{
+    background-color: var(--second-dark-blue-color);
+}
