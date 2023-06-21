@@ -205,6 +205,7 @@ h1, h2, h3{
     letter-spacing: 0.02em;
     color: var(--second-dark-blue-color);
     margin-bottom: 8px;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .list-main-text{
