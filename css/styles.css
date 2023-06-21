@@ -368,6 +368,10 @@ address{
     border-bottom: 1px solid var(--trhird-white-color);
 }
 
+.portfolio-container-{
+    display: flex;
+}
+
 .portfolio-container{
     align-items: center;
     padding: 32px 16px;
