@@ -352,7 +352,6 @@ h1, h2, h3{
 .portfolio-container{
     padding: 0 15px;
     border-top: none;
-    align-items: center;
 
 }
 
@@ -376,6 +375,8 @@ address{
 
 .portfolio-container{
     display: flex; 
+    align-items: center;
+
 }
 
 .portfolio-nav{
