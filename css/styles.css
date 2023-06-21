@@ -95,6 +95,7 @@ img{
 .list{
     list-style: none;
     display: flex;
+    margin: 0;
 }
 
 .list__{
@@ -350,10 +351,13 @@ h1, h2, h3{
 
 .portfolio-container{
     padding: 0 15px;
-    border: 1px solid var(--trhird-white-color);
     border-top: none;
-    padding: 32px 16px;
+    align-items: center;
 
+}
+
+address{
+    margin-left: auto;
 }
 
 
