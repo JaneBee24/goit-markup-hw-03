@@ -78,6 +78,7 @@ img{
 .adress-list{
     display: flex;
     gap: 40px;
+    padding: 0 15px;
 }
 
 .link:hover, .link:focus{
@@ -377,7 +378,6 @@ h1, h2, h3{
 .portfolio-nav{
     display: flex;
     align-items: center; 
-    padding: 0 15px;
 }
 
 .visually-hidden {
