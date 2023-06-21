@@ -356,6 +356,10 @@ h1, h2, h3{
 
 }
 
+.container-div{
+    padding: 0 15px;
+}
+
 .thrird-section{
     padding-bottom: 120px;
 }
