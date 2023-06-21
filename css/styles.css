@@ -106,7 +106,10 @@ img{
 
 .second-section-list{
     gap: 24px; 
-    width: calc((100% - 72px) / 4); 
+}
+
+.ul{
+    padding-left: 0;
 }
 
 .list_{
