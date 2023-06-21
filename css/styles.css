@@ -356,9 +356,6 @@ h1, h2, h3{
 
 }
 
-.container-div{
-    padding: 0 15px;
-}
 
 .thrird-section{
     padding-bottom: 120px;
@@ -380,6 +377,7 @@ h1, h2, h3{
 .portfolio-nav{
     display: flex;
     align-items: center; 
+    padding: 0 15px;
 }
 
 .visually-hidden {
