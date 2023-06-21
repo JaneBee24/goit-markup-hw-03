@@ -78,7 +78,6 @@ img{
 .adress-list{
     display: flex;
     gap: 40px;
-    padding: 0 15px;
 }
 
 .link:hover, .link:focus{
